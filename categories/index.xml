@@ -6,6 +6,15 @@
         <description>Recent content in Categories on Luoyao Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>Example Person</copyright><atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" />
+        <copyright>Luoyao Blog</copyright>
+        <lastBuildDate>Wed, 13 Nov 2024 16:35:00 +0800</lastBuildDate><atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>生活</title>
+        <link>https://example.com/categories/life/</link>
+        <pubDate>Wed, 13 Nov 2024 16:35:00 +0800</pubDate>
+        
+        <guid>https://example.com/categories/life/</guid>
+        <description>&lt;img src="https://example.com/categories/life/life.jpg" alt="Featured image of post 生活" /&gt;</description>
+        </item>
+        
     </channel>
 </rss>
