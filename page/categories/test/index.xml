@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Life on Luoyao Blog</title>
-        <link>https://blog.forairs.com/page/categories/test/</link>
+        <link>https://yuejieyao-github-io.pages.dev/page/categories/test/</link>
         <description>Recent content in Life on Luoyao Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>Luoyao Blog</copyright><atom:link href="https://blog.forairs.com/page/categories/test/index.xml" rel="self" type="application/rss+xml" />
+        <copyright>Luoyao Blog</copyright><atom:link href="https://yuejieyao-github-io.pages.dev/page/categories/test/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>
