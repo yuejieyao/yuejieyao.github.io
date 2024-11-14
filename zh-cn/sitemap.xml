@@ -2,80 +2,65 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/tags/blog/</loc>
+    <loc>https:blog.forairs.comtags/blog/</loc>
     <lastmod>2024-11-13T16:35:00+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/</loc>
-    <lastmod>2024-11-13T16:35:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.com/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://example.com/ar/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://example.com/categories/"
-                />
-  </url><url>
-    <loc>https://example.com/</loc>
+    <loc>https:blog.forairs.comcategories/</loc>
     <lastmod>2024-11-13T16:35:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://example.com/ar/"
+                href="https:blog.forairs.comen/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://example.com/"
+                href="https:blog.forairs.comcategories/"
                 />
   </url><url>
-    <loc>https://example.com/post/</loc>
-    <lastmod>2024-11-13T16:35:00+08:00</lastmod>
-  </url><url>
-    <loc>https://example.com/tags/</loc>
+    <loc>https:blog.forairs.com</loc>
     <lastmod>2024-11-13T16:35:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://example.com/ar/tags/"
+                href="https:blog.forairs.comen/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://example.com/tags/"
+                href="https:blog.forairs.com"
                 />
   </url><url>
-    <loc>https://example.com/categories/life/</loc>
+    <loc>https:blog.forairs.compost/</loc>
     <lastmod>2024-11-13T16:35:00+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/p/%E7%94%9F%E5%91%BD%E4%B8%8D%E6%AD%A2%E6%8A%98%E8%85%BE%E4%B8%8D%E6%83%9C/</loc>
+    <loc>https:blog.forairs.comtags/</loc>
+    <lastmod>2024-11-13T16:35:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https:blog.forairs.comen/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https:blog.forairs.comtags/"
+                />
+  </url><url>
+    <loc>https:blog.forairs.comcategories/life/</loc>
     <lastmod>2024-11-13T16:35:00+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/archives/</loc>
+    <loc>https:blog.forairs.comp/%E7%94%9F%E5%91%BD%E4%B8%8D%E6%AD%A2%E6%8A%98%E8%85%BE%E4%B8%8D%E6%83%9C/</loc>
+    <lastmod>2024-11-13T16:35:00+08:00</lastmod>
+  </url><url>
+    <loc>https:blog.forairs.comarchives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/page/</loc>
+    <loc>https:blog.forairs.compage/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/page/categories/test/</loc>
+    <loc>https:blog.forairs.compage/categories/test/</loc>
   </url><url>
-    <loc>https://example.com/search/</loc>
+    <loc>https:blog.forairs.comsearch/</loc>
   </url>
 </urlset>

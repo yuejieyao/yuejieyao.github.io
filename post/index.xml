@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on Luoyao Blog</title>
-        <link>https://example.com/post/</link>
+        <link>https:blog.forairs.compost/</link>
         <description>Recent content in Posts on Luoyao Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Luoyao Blog</copyright>
-        <lastBuildDate>Wed, 13 Nov 2024 16:35:00 +0800</lastBuildDate><atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 13 Nov 2024 16:35:00 +0800</lastBuildDate><atom:link href="https:blog.forairs.compost/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>生命不止,折腾不惜</title>
-        <link>https://example.com/p/%E7%94%9F%E5%91%BD%E4%B8%8D%E6%AD%A2%E6%8A%98%E8%85%BE%E4%B8%8D%E6%83%9C/</link>
+        <link>https:blog.forairs.comp/%E7%94%9F%E5%91%BD%E4%B8%8D%E6%AD%A2%E6%8A%98%E8%85%BE%E4%B8%8D%E6%83%9C/</link>
         <pubDate>Wed, 13 Nov 2024 16:35:00 +0800</pubDate>
         
-        <guid>https://example.com/p/%E7%94%9F%E5%91%BD%E4%B8%8D%E6%AD%A2%E6%8A%98%E8%85%BE%E4%B8%8D%E6%83%9C/</guid>
-        <description>&lt;img src="https://example.com/p/%E7%94%9F%E5%91%BD%E4%B8%8D%E6%AD%A2%E6%8A%98%E8%85%BE%E4%B8%8D%E6%83%9C/cover.jpg" alt="Featured image of post 生命不止,折腾不惜" /&gt;&lt;h2 id=&#34;这里就是我的blog了&#34;&gt;这里就是我的Blog了
+        <guid>https:blog.forairs.comp/%E7%94%9F%E5%91%BD%E4%B8%8D%E6%AD%A2%E6%8A%98%E8%85%BE%E4%B8%8D%E6%83%9C/</guid>
+        <description>&lt;img src="https:blog.forairs.com" alt="Featured image of post 生命不止,折腾不惜" /&gt;&lt;h2 id=&#34;这里就是我的blog了&#34;&gt;这里就是我的Blog了
 &lt;/h2&gt;&lt;h3 id=&#34;起因&#34;&gt;起因
 &lt;/h3&gt;&lt;p&gt;可能是最近摸鱼厉害，居然突发奇想要创建一个Blog，虽然我知道只是三分热度，但是接触一些平时不会接触的东西总是好的，哪怕在这篇博文发布后再也不更新，至少也会是我回忆中的一笔。&lt;/p&gt;
 &lt;h3 id=&#34;经过&#34;&gt;经过
@@ -24,10 +24,10 @@
 &lt;h3 id=&#34;最后&#34;&gt;最后
 &lt;/h3&gt;&lt;p&gt;不知道这会不会是最后一篇博文，希望不会吧。&lt;br&gt;
 顺便再测一下图片功能，随便放一张：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/p/%E7%94%9F%E5%91%BD%E4%B8%8D%E6%AD%A2%E6%8A%98%E8%85%BE%E4%B8%8D%E6%83%9C/image1.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https:blog.forairs.com/p/%E7%94%9F%E5%91%BD%E4%B8%8D%E6%AD%A2%E6%8A%98%E8%85%BE%E4%B8%8D%E6%83%9C/image1.jpg&#34;
 	width=&#34;2000&#34;
 	height=&#34;3377&#34;
-	srcset=&#34;https://example.com/p/%E7%94%9F%E5%91%BD%E4%B8%8D%E6%AD%A2%E6%8A%98%E8%85%BE%E4%B8%8D%E6%83%9C/image1_hu18188188531115695795.jpg 480w, https://example.com/p/%E7%94%9F%E5%91%BD%E4%B8%8D%E6%AD%A2%E6%8A%98%E8%85%BE%E4%B8%8D%E6%83%9C/image1_hu311336918053464873.jpg 1024w&#34;
+	srcset=&#34;https:blog.forairs.com/p/%E7%94%9F%E5%91%BD%E4%B8%8D%E6%AD%A2%E6%8A%98%E8%85%BE%E4%B8%8D%E6%83%9C/image1_hu18188188531115695795.jpg 480w, https:blog.forairs.com/p/%E7%94%9F%E5%91%BD%E4%B8%8D%E6%AD%A2%E6%8A%98%E8%85%BE%E4%B8%8D%E6%83%9C/image1_hu311336918053464873.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;最近特别喜欢崩铁的知更鸟&#34;
