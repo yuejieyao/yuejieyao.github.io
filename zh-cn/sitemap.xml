@@ -2,65 +2,65 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://yuejieyao-github-io.pages.dev/tags/blog/</loc>
+    <loc>https://blog.forairs.com/tags/blog/</loc>
     <lastmod>2024-11-13T16:35:00+08:00</lastmod>
   </url><url>
-    <loc>https://yuejieyao-github-io.pages.dev/categories/</loc>
-    <lastmod>2024-11-13T16:35:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yuejieyao-github-io.pages.dev/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://yuejieyao-github-io.pages.dev/categories/"
-                />
-  </url><url>
-    <loc>https://yuejieyao-github-io.pages.dev/</loc>
+    <loc>https://blog.forairs.com/categories/</loc>
     <lastmod>2024-11-13T16:35:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://yuejieyao-github-io.pages.dev/en/"
+                href="https://blog.forairs.com/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://yuejieyao-github-io.pages.dev/"
+                href="https://blog.forairs.com/categories/"
                 />
   </url><url>
-    <loc>https://yuejieyao-github-io.pages.dev/post/</loc>
-    <lastmod>2024-11-13T16:35:00+08:00</lastmod>
-  </url><url>
-    <loc>https://yuejieyao-github-io.pages.dev/tags/</loc>
+    <loc>https://blog.forairs.com/</loc>
     <lastmod>2024-11-13T16:35:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://yuejieyao-github-io.pages.dev/en/tags/"
+                href="https://blog.forairs.com/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://yuejieyao-github-io.pages.dev/tags/"
+                href="https://blog.forairs.com/"
                 />
   </url><url>
-    <loc>https://yuejieyao-github-io.pages.dev/categories/life/</loc>
+    <loc>https://blog.forairs.com/post/</loc>
     <lastmod>2024-11-13T16:35:00+08:00</lastmod>
   </url><url>
-    <loc>https://yuejieyao-github-io.pages.dev/p/%E7%94%9F%E5%91%BD%E4%B8%8D%E6%AD%A2%E6%8A%98%E8%85%BE%E4%B8%8D%E6%83%9C/</loc>
+    <loc>https://blog.forairs.com/tags/</loc>
+    <lastmod>2024-11-13T16:35:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.forairs.com/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://blog.forairs.com/tags/"
+                />
+  </url><url>
+    <loc>https://blog.forairs.com/categories/life/</loc>
     <lastmod>2024-11-13T16:35:00+08:00</lastmod>
   </url><url>
-    <loc>https://yuejieyao-github-io.pages.dev/archives/</loc>
+    <loc>https://blog.forairs.com/p/%E7%94%9F%E5%91%BD%E4%B8%8D%E6%AD%A2%E6%8A%98%E8%85%BE%E4%B8%8D%E6%83%9C/</loc>
+    <lastmod>2024-11-13T16:35:00+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.forairs.com/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://yuejieyao-github-io.pages.dev/page/</loc>
+    <loc>https://blog.forairs.com/page/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://yuejieyao-github-io.pages.dev/page/categories/test/</loc>
+    <loc>https://blog.forairs.com/page/categories/test/</loc>
   </url><url>
-    <loc>https://yuejieyao-github-io.pages.dev/search/</loc>
+    <loc>https://blog.forairs.com/search/</loc>
   </url>
 </urlset>

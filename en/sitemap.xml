@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://yuejieyao-github-io.pages.dev/en/categories/</loc>
+    <loc>https://blog.forairs.com/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://yuejieyao-github-io.pages.dev/categories/"
+                href="https://blog.forairs.com/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://yuejieyao-github-io.pages.dev/en/categories/"
+                href="https://blog.forairs.com/en/categories/"
                 />
   </url><url>
-    <loc>https://yuejieyao-github-io.pages.dev/en/</loc>
+    <loc>https://blog.forairs.com/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://yuejieyao-github-io.pages.dev/"
+                href="https://blog.forairs.com/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://yuejieyao-github-io.pages.dev/en/"
+                href="https://blog.forairs.com/en/"
                 />
   </url><url>
-    <loc>https://yuejieyao-github-io.pages.dev/en/tags/</loc>
+    <loc>https://blog.forairs.com/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://yuejieyao-github-io.pages.dev/tags/"
+                href="https://blog.forairs.com/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://yuejieyao-github-io.pages.dev/en/tags/"
+                href="https://blog.forairs.com/en/tags/"
                 />
   </url>
 </urlset>
