@@ -2,11 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.forairs.com/tags/blog/</loc>
-    <lastmod>2024-11-13T16:35:00+08:00</lastmod>
-  </url><url>
     <loc>https://blog.forairs.com/categories/</loc>
-    <lastmod>2024-11-13T16:35:00+08:00</lastmod>
+    <lastmod>2024-11-15T10:04:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -19,7 +16,7 @@
                 />
   </url><url>
     <loc>https://blog.forairs.com/</loc>
-    <lastmod>2024-11-13T16:35:00+08:00</lastmod>
+    <lastmod>2024-11-15T10:04:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -31,11 +28,14 @@
                 href="https://blog.forairs.com/"
                 />
   </url><url>
+    <loc>https://blog.forairs.com/tags/pet/</loc>
+    <lastmod>2024-11-15T10:04:00+08:00</lastmod>
+  </url><url>
     <loc>https://blog.forairs.com/post/</loc>
-    <lastmod>2024-11-13T16:35:00+08:00</lastmod>
+    <lastmod>2024-11-15T10:04:00+08:00</lastmod>
   </url><url>
     <loc>https://blog.forairs.com/tags/</loc>
-    <lastmod>2024-11-13T16:35:00+08:00</lastmod>
+    <lastmod>2024-11-15T10:04:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -47,7 +47,13 @@
                 href="https://blog.forairs.com/tags/"
                 />
   </url><url>
+    <loc>https://blog.forairs.com/p/%E4%BB%8B%E7%BB%8D%E4%B8%80%E4%B8%8B%E6%88%91%E7%9A%84%E5%AE%A0%E7%89%A9%E9%B9%A6%E9%B9%89%E4%B8%8B%E9%9D%A2%E5%9B%BE%E5%A4%9A/</loc>
+    <lastmod>2024-11-15T10:04:00+08:00</lastmod>
+  </url><url>
     <loc>https://blog.forairs.com/categories/life/</loc>
+    <lastmod>2024-11-15T10:04:00+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.forairs.com/tags/blog/</loc>
     <lastmod>2024-11-13T16:35:00+08:00</lastmod>
   </url><url>
     <loc>https://blog.forairs.com/p/%E7%94%9F%E5%91%BD%E4%B8%8D%E6%AD%A2%E6%8A%98%E8%85%BE%E4%B8%8D%E6%83%9C/</loc>
