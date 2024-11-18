@@ -189,9 +189,58 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;然后放点我和小凤梨亲热的视频片段&lt;/p&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://player.vimeo.com/video/1029940033&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;vimeo video&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;div class=&#34;vimeo-container vertical&#34;&gt;
+    &lt;iframe src=&#34;https://player.vimeo.com/video/1029940033&#34;
+            style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34;
+            frameborder=&#34;0&#34;
+            allow=&#34;autoplay; fullscreen&#34;
+            allowfullscreen&gt;
+    &lt;/iframe&gt;
 &lt;/div&gt;
+
+
+&lt;style&gt;
+    .vimeo-container {
+        position: relative;
+        height: 0;
+        overflow: hidden;
+        max-width: 100%;
+    }
+
+    .vimeo-container.horizontal {
+        padding-bottom: 56.25%;  
+    }
+
+    .vimeo-container.vertical {
+        padding-bottom: 177.78%;  
+    }
+&lt;/style&gt;
+&lt;div class=&#34;vimeo-container vertical&#34;&gt;
+    &lt;iframe src=&#34;https://player.vimeo.com/video/1030587001&#34;
+            style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34;
+            frameborder=&#34;0&#34;
+            allow=&#34;autoplay; fullscreen&#34;
+            allowfullscreen&gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;style&gt;
+    .vimeo-container {
+        position: relative;
+        height: 0;
+        overflow: hidden;
+        max-width: 100%;
+    }
+
+    .vimeo-container.horizontal {
+        padding-bottom: 56.25%;  
+    }
+
+    .vimeo-container.vertical {
+        padding-bottom: 177.78%;  
+    }
+&lt;/style&gt;&lt;/p&gt;
 </description>
         </item>
         
