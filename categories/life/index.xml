@@ -7,7 +7,149 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Luoyao Blog</copyright>
-        <lastBuildDate>Thu, 21 Nov 2024 09:38:00 +0800</lastBuildDate><atom:link href="https://blog.forairs.com/categories/life/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 21 Nov 2024 15:55:00 +0800</lastBuildDate><atom:link href="https://blog.forairs.com/categories/life/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>记录一次拯救者Y9000X2019的拆机维护解决风扇异响</title>
+        <link>https://blog.forairs.com/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/</link>
+        <pubDate>Thu, 21 Nov 2024 15:55:00 +0800</pubDate>
+        
+        <guid>https://blog.forairs.com/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/</guid>
+        <description>&lt;img src="https://blog.forairs.com/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/cover.jpg" alt="Featured image of post 记录一次拯救者Y9000X2019的拆机维护解决风扇异响" /&gt;&lt;p&gt;过程百般折腾，记录一下，虽然可能性不大，但是万一可以帮到别人&lt;/p&gt;
+&lt;h3 id=&#34;起因&#34;&gt;起因
+&lt;/h3&gt;&lt;p&gt;这台笔记本是我在2019年发售之际立刻在官网订购的，看中的就是它牺牲了独立显卡后较好的性能释放和不错的轻薄以及重量。是非常对我需求的笔记本，我每天背着上下班，上班用来敲代码，下半回家接上显卡坞就可以直接玩游戏，在家想写点自己的东西也不用再搞套环境搞同步啥的，非常方便。&lt;/p&gt;
+&lt;p&gt;近两个月左右开始风扇出现了奇怪的声音，虽然并不影响使用，同事们也表示还好根本没注意到，但随着动静越来越大，我还是决定拿去售后维护一下。起初我觉的可能是长期没有拆机清灰导致，所以在联想的微信程序里付费下单，到附近的的官方服务点进行拆机维护。&lt;/p&gt;
+&lt;h3 id=&#34;过程&#34;&gt;过程
+&lt;/h3&gt;&lt;h4 id=&#34;联想官方售后点表示拒绝接单&#34;&gt;联想官方售后点表示拒绝接单
+&lt;/h4&gt;&lt;p&gt;当我背着电脑来到联想指定的官方服务点后，小哥看了一下标牌后询问我使用多久了，我如实回答。接下来让我没想到的是，小哥表示此电脑虽然还没满5年，但是也差不多5年了。由于超过5年的电脑他们官方也没有配件，所以是不接单的，理由是万一他们在拆机维护的过程中弄坏了什么，他们没有配件可以更换。&lt;/p&gt;
+&lt;p&gt;其实我对这种说辞虽然心存不满，但也可以理解，我也没有为难小哥，就直接退款了，临走前小哥也提醒我说我的电池已经鼓包了。&lt;/p&gt;
+&lt;h4 id=&#34;尝试自行拆机维护&#34;&gt;尝试自行拆机维护
+&lt;/h4&gt;&lt;p&gt;其实Y9000X拆机维护本身很简单，我认为设计的挺不错的，但是由于没有经验，但是碰到了很多的坑，下面会一一讲到。&lt;/p&gt;
+&lt;p&gt;我在某宝上先花160块钱购买了一块替换用的电池，到货后准备大干一场开始拆机，然后碰到了第一个问题：&lt;/p&gt;
+&lt;h4 id=&#34;底板的螺丝特别容易花&#34;&gt;底板的螺丝特别容易花
+&lt;/h4&gt;&lt;p&gt;可能这也不仅仅是Y9000X的问题了，似乎很多笔记本螺丝都这样，不知道是不是故意增加自行拆机的难度，Y9000X的螺丝不但特别小特别扁，还是那种六角形的螺丝，我找了好几个工具箱才找到这种型号的螺丝刀，然后小心翼翼结果还是拧花了两个。拆机维护直接就卡在拆机上了。&lt;br&gt;
+随后我在淘宝上购买了那种几十块钱的笔记本起丝神器，才成功的开盖。
+&lt;img src=&#34;https://blog.forairs.com/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/image1.jpg&#34;
+	width=&#34;4032&#34;
+	height=&#34;3024&#34;
+	srcset=&#34;https://blog.forairs.com/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/image1_hu15289154915126420954.jpg 480w, https://blog.forairs.com/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/image1_hu5785230420597686756.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;螺丝被我拧花成这样&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;开盖后的拆解顺序可以看网上的视频，有很详尽的讲解，我就不赘述了。
+&lt;img src=&#34;https://blog.forairs.com/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/image2.jpg&#34;
+	width=&#34;4032&#34;
+	height=&#34;3024&#34;
+	srcset=&#34;https://blog.forairs.com/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/image2_hu4658089090898799567.jpg 480w, https://blog.forairs.com/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/image2_hu7314453116745988992.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;终于打开盖子,可以看到鼓包变形的电池&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;
+&lt;img src=&#34;https://blog.forairs.com/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/image3.jpg&#34;
+	width=&#34;4032&#34;
+	height=&#34;3024&#34;
+	srcset=&#34;https://blog.forairs.com/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/image3_hu16949282500036921598.jpg 480w, https://blog.forairs.com/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/image3_hu746343809843056498.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;新旧电池对比&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;
+&lt;img src=&#34;https://blog.forairs.com/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/image4.jpg&#34;
+	width=&#34;4032&#34;
+	height=&#34;3024&#34;
+	srcset=&#34;https://blog.forairs.com/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/image4_hu14456236467110008616.jpg 480w, https://blog.forairs.com/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/image4_hu3543245817846700002.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;取下均热板并清除旧硅脂的样子&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;拔下电源线后很顺利的取下了均热板，风扇，重新给CPU涂上了新硅脂，给风扇扫干净灰，最后全部装回去，换上了新电池，盖上盖板，顺利启动。&lt;/p&gt;
+&lt;h4 id=&#34;清灰后风扇还是异响&#34;&gt;清灰后风扇还是异响。
+&lt;/h4&gt;&lt;p&gt;于是我很纳闷，便搜索了不少视频，从B站到油管到小红薯最后到某音，在某音上我看到一个似乎是专业维修人员，替人拆机清灰时给风扇喷了WD40，于是我有样学样，学视频里的专业人员一样，再次把风扇泻下来喷WD40，然后就碰到了新的问题：&lt;/p&gt;
+&lt;h4 id=&#34;喷wd40只会好几分钟&#34;&gt;喷WD40只会好几分钟
+&lt;/h4&gt;&lt;p&gt;没错，喷完WD40，擦干净后装回去，开机，确实没声音了，但是没过几分钟，声音又出来了！并且声音变得更响了！
+我拆开后盖观察，发现声音变响的原因是风扇开始不能正常运转了，会转转停停，有很明显卡住的声音。
+经过我的分析，WD40确实可以短时间解决这个问题，原因是WD40也可以作为润滑剂使用，但是WD40立刻就挥发了，并且把风扇内部的润滑油也给清理没了，导致WD40喷完会好那么一会，等WD40挥发掉，反而比之前更差。&lt;/p&gt;
+&lt;p&gt;一通分析完，我把目标锁定在了风扇内部的润滑油上，其实只要给内部加上润滑油，应该就好了，这里就碰到了最坑的问题：&lt;/p&gt;
+&lt;h4 id=&#34;此款的风扇是不可拆卸式的&#34;&gt;此款的风扇是不可拆卸式的
+&lt;/h4&gt;&lt;p&gt;没错，我搜了好久没搜到有人给Y9000X的风扇加润滑油的视频或相关资料，大家异响以后，就通过售后直接换新的风扇。
+于是我也决定换风扇，随后我搜了下某宝某鱼，顿时惊到了：&lt;/p&gt;
+&lt;h4 id=&#34;对应款的风扇似乎卖断货了&#34;&gt;对应款的风扇似乎卖断货了
+&lt;/h4&gt;&lt;p&gt;没错，在某宝和某鱼上，大家都在找这款型号的风扇，买不到！此型号分成左右两侧各一对，一边是GPU风扇一边是CPU风扇，唯一全有的一家店卖800多。可能是时间长了的原因，可能是通病的原因，反正现在买此型号替换风扇的价格高的离谱。&lt;br&gt;
+这么离谱的价格让我立刻放弃了换风扇的想法，那怎么办呢？&lt;/p&gt;
+&lt;h4 id=&#34;那么最后如何解决呢&#34;&gt;那么最后如何解决呢
+&lt;/h4&gt;&lt;p&gt;&lt;span style=&#34;color: red;&#34;&gt;强拆风扇&lt;/p&gt;
+&lt;p&gt;经过观察可以发现这个风扇似乎是用类似塑料铆钉的方式固定的，为了把中心的电机暴露出来，必然要破坏性拆卸，尽量保持不弯折直接暴力把正面的板子强行掰下，然后取下扇叶就可以露出中心的电机，就可以上润滑油了！
+&lt;img src=&#34;https://blog.forairs.com/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/image5.jpg&#34;
+	width=&#34;4032&#34;
+	height=&#34;3024&#34;
+	srcset=&#34;https://blog.forairs.com/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/image5_hu10798530959525304374.jpg 480w, https://blog.forairs.com/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/image5_hu8754580507108749954.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;强行开盖&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;
+&lt;img src=&#34;https://blog.forairs.com/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/image6.jpg&#34;
+	width=&#34;4032&#34;
+	height=&#34;3024&#34;
+	srcset=&#34;https://blog.forairs.com/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/image6_hu17656004346622638970.jpg 480w, https://blog.forairs.com/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/image6_hu11806907824390857842.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;取下扇叶,露出电机&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;润滑油不要多，在中心轴承那个小圆洞上轻轻点一小滴即可，然后重新插上扇叶，最后我是通过502强力胶+电工胶带的方式装回,应该也有更好的方式,不过我不知道。
+&lt;img src=&#34;https://blog.forairs.com/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/image7.jpg&#34;
+	width=&#34;4032&#34;
+	height=&#34;3024&#34;
+	srcset=&#34;https://blog.forairs.com/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/image7_hu11705694630827679511.jpg 480w, https://blog.forairs.com/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/image7_hu18196152982002793335.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;由于连接的点位都断了,我最后是靠502和电工胶带粘回去&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;最后&#34;&gt;最后
+&lt;/h3&gt;&lt;p&gt;再次装机通电后，终于清净了。甚至感觉比这电脑刚入手时声音还小，仿佛回到了青春期一般，虽然风扇其实动了手术。&lt;/p&gt;
+&lt;p&gt;我现在觉的等哪天换了新笔记本,可能还得提前准备点备件,如果是准备用满5年以上的话&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>消失在记忆中的玉兰饼</title>
         <link>https://blog.forairs.com/p/%E6%B6%88%E5%A4%B1%E5%9C%A8%E8%AE%B0%E5%BF%86%E4%B8%AD%E7%9A%84%E7%8E%89%E5%85%B0%E9%A5%BC/</link>
         <pubDate>Thu, 21 Nov 2024 09:38:00 +0800</pubDate>

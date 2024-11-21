@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="希望能帮到还在用这个型号的笔记本并且风扇异响的人群">
+<title>记录一次拯救者Y9000X2019的拆机维护解决风扇异响</title>
+
+<link rel='canonical' href='https://blog.forairs.com/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/'>
+
+<link rel="stylesheet" href="/scss/style.min.bdc1157f346714aee56f7210360c7c912bf0a7fefc3b3f2bae07688bade15d78.css"><meta property='og:title' content="记录一次拯救者Y9000X2019的拆机维护解决风扇异响">
+<meta property='og:description' content="希望能帮到还在用这个型号的笔记本并且风扇异响的人群">
+<meta property='og:url' content='https://blog.forairs.com/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/'>
+<meta property='og:site_name' content='Luoyao Blog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Hardware' /><meta property='article:published_time' content='2024-11-21T15:55:00&#43;08:00'/><meta property='article:modified_time' content='2024-11-21T15:55:00&#43;08:00'/><meta property='og:image' content='https://blog.forairs.com/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/cover.jpg' />
+<meta name="twitter:site" content="@yuejieyao">
+    <meta name="twitter:creator" content="@yuejieyao"><meta name="twitter:title" content="记录一次拯救者Y9000X2019的拆机维护解决风扇异响">
+<meta name="twitter:description" content="希望能帮到还在用这个型号的笔记本并且风扇异响的人群"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://blog.forairs.com/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/cover.jpg' />
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu14189430016855724329.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🐈‍⬛</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Luoyao Blog</a></h1>
+            <h2 class="site-description">妖怪们的小屋</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/yuejieyao'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/yuejieyao'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+                    
+                        <li id="i18n-switch">  
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                            <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
+                                
+                                    <option value="https://blog.forairs.com/en/" >English</option>
+                                
+                                    <option value="https://blog.forairs.com/" selected>中文</option>
+                                
+                            </select>
+                        </li>
+                    
+                
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li>
+      <ol>
+        <li><a href="#起因">起因</a></li>
+        <li><a href="#过程">过程</a>
+          <ol>
+            <li><a href="#联想官方售后点表示拒绝接单">联想官方售后点表示拒绝接单</a></li>
+            <li><a href="#尝试自行拆机维护">尝试自行拆机维护</a></li>
+            <li><a href="#底板的螺丝特别容易花">底板的螺丝特别容易花</a></li>
+            <li><a href="#清灰后风扇还是异响">清灰后风扇还是异响。</a></li>
+            <li><a href="#喷wd40只会好几分钟">喷WD40只会好几分钟</a></li>
+            <li><a href="#此款的风扇是不可拆卸式的">此款的风扇是不可拆卸式的</a></li>
+            <li><a href="#对应款的风扇似乎卖断货了">对应款的风扇似乎卖断货了</a></li>
+            <li><a href="#那么最后如何解决呢">那么最后如何解决呢</a></li>
+          </ol>
+        </li>
+        <li><a href="#最后">最后</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/">
+                <img src="/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/cover_hu836996736380641801.jpg"
+                        srcset="/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/cover_hu836996736380641801.jpg 800w, /p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/cover_hu8914834760508959713.jpg 1600w"
+                        width="800" 
+                        height="450" 
+                        loading="lazy"
+                        alt="Featured image of post 记录一次拯救者Y9000X2019的拆机维护解决风扇异响" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/life/" style="background-color: #2a9d8f; color: #fff;">
+                生活
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/">记录一次拯救者Y9000X2019的拆机维护解决风扇异响</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            希望能帮到还在用这个型号的笔记本并且风扇异响的人群
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Nov 21, 2024</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 4 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>过程百般折腾，记录一下，虽然可能性不大，但是万一可以帮到别人</p>
+<h3 id="起因">起因
+</h3><p>这台笔记本是我在2019年发售之际立刻在官网订购的，看中的就是它牺牲了独立显卡后较好的性能释放和不错的轻薄以及重量。是非常对我需求的笔记本，我每天背着上下班，上班用来敲代码，下半回家接上显卡坞就可以直接玩游戏，在家想写点自己的东西也不用再搞套环境搞同步啥的，非常方便。</p>
+<p>近两个月左右开始风扇出现了奇怪的声音，虽然并不影响使用，同事们也表示还好根本没注意到，但随着动静越来越大，我还是决定拿去售后维护一下。起初我觉的可能是长期没有拆机清灰导致，所以在联想的微信程序里付费下单，到附近的的官方服务点进行拆机维护。</p>
+<h3 id="过程">过程
+</h3><h4 id="联想官方售后点表示拒绝接单">联想官方售后点表示拒绝接单
+</h4><p>当我背着电脑来到联想指定的官方服务点后，小哥看了一下标牌后询问我使用多久了，我如实回答。接下来让我没想到的是，小哥表示此电脑虽然还没满5年，但是也差不多5年了。由于超过5年的电脑他们官方也没有配件，所以是不接单的，理由是万一他们在拆机维护的过程中弄坏了什么，他们没有配件可以更换。</p>
+<p>其实我对这种说辞虽然心存不满，但也可以理解，我也没有为难小哥，就直接退款了，临走前小哥也提醒我说我的电池已经鼓包了。</p>
+<h4 id="尝试自行拆机维护">尝试自行拆机维护
+</h4><p>其实Y9000X拆机维护本身很简单，我认为设计的挺不错的，但是由于没有经验，但是碰到了很多的坑，下面会一一讲到。</p>
+<p>我在某宝上先花160块钱购买了一块替换用的电池，到货后准备大干一场开始拆机，然后碰到了第一个问题：</p>
+<h4 id="底板的螺丝特别容易花">底板的螺丝特别容易花
+</h4><p>可能这也不仅仅是Y9000X的问题了，似乎很多笔记本螺丝都这样，不知道是不是故意增加自行拆机的难度，Y9000X的螺丝不但特别小特别扁，还是那种六角形的螺丝，我找了好几个工具箱才找到这种型号的螺丝刀，然后小心翼翼结果还是拧花了两个。拆机维护直接就卡在拆机上了。<br>
+随后我在淘宝上购买了那种几十块钱的笔记本起丝神器，才成功的开盖。
+<img src="/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/image1.jpg"
+	width="4032"
+	height="3024"
+	srcset="/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/image1_hu15289154915126420954.jpg 480w, /p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/image1_hu5785230420597686756.jpg 1024w"
+	loading="lazy"
+	
+		alt="螺丝被我拧花成这样"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="133"
+		data-flex-basis="320px"
+	
+></p>
+<p>开盖后的拆解顺序可以看网上的视频，有很详尽的讲解，我就不赘述了。
+<img src="/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/image2.jpg"
+	width="4032"
+	height="3024"
+	srcset="/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/image2_hu4658089090898799567.jpg 480w, /p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/image2_hu7314453116745988992.jpg 1024w"
+	loading="lazy"
+	
+		alt="终于打开盖子,可以看到鼓包变形的电池"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="133"
+		data-flex-basis="320px"
+	
+>
+<img src="/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/image3.jpg"
+	width="4032"
+	height="3024"
+	srcset="/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/image3_hu16949282500036921598.jpg 480w, /p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/image3_hu746343809843056498.jpg 1024w"
+	loading="lazy"
+	
+		alt="新旧电池对比"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="133"
+		data-flex-basis="320px"
+	
+>
+<img src="/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/image4.jpg"
+	width="4032"
+	height="3024"
+	srcset="/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/image4_hu14456236467110008616.jpg 480w, /p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/image4_hu3543245817846700002.jpg 1024w"
+	loading="lazy"
+	
+		alt="取下均热板并清除旧硅脂的样子"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="133"
+		data-flex-basis="320px"
+	
+></p>
+<p>拔下电源线后很顺利的取下了均热板，风扇，重新给CPU涂上了新硅脂，给风扇扫干净灰，最后全部装回去，换上了新电池，盖上盖板，顺利启动。</p>
+<h4 id="清灰后风扇还是异响">清灰后风扇还是异响。
+</h4><p>于是我很纳闷，便搜索了不少视频，从B站到油管到小红薯最后到某音，在某音上我看到一个似乎是专业维修人员，替人拆机清灰时给风扇喷了WD40，于是我有样学样，学视频里的专业人员一样，再次把风扇泻下来喷WD40，然后就碰到了新的问题：</p>
+<h4 id="喷wd40只会好几分钟">喷WD40只会好几分钟
+</h4><p>没错，喷完WD40，擦干净后装回去，开机，确实没声音了，但是没过几分钟，声音又出来了！并且声音变得更响了！
+我拆开后盖观察，发现声音变响的原因是风扇开始不能正常运转了，会转转停停，有很明显卡住的声音。
+经过我的分析，WD40确实可以短时间解决这个问题，原因是WD40也可以作为润滑剂使用，但是WD40立刻就挥发了，并且把风扇内部的润滑油也给清理没了，导致WD40喷完会好那么一会，等WD40挥发掉，反而比之前更差。</p>
+<p>一通分析完，我把目标锁定在了风扇内部的润滑油上，其实只要给内部加上润滑油，应该就好了，这里就碰到了最坑的问题：</p>
+<h4 id="此款的风扇是不可拆卸式的">此款的风扇是不可拆卸式的
+</h4><p>没错，我搜了好久没搜到有人给Y9000X的风扇加润滑油的视频或相关资料，大家异响以后，就通过售后直接换新的风扇。
+于是我也决定换风扇，随后我搜了下某宝某鱼，顿时惊到了：</p>
+<h4 id="对应款的风扇似乎卖断货了">对应款的风扇似乎卖断货了
+</h4><p>没错，在某宝和某鱼上，大家都在找这款型号的风扇，买不到！此型号分成左右两侧各一对，一边是GPU风扇一边是CPU风扇，唯一全有的一家店卖800多。可能是时间长了的原因，可能是通病的原因，反正现在买此型号替换风扇的价格高的离谱。<br>
+这么离谱的价格让我立刻放弃了换风扇的想法，那怎么办呢？</p>
+<h4 id="那么最后如何解决呢">那么最后如何解决呢
+</h4><p><span style="color: red;">强拆风扇</p>
+<p>经过观察可以发现这个风扇似乎是用类似塑料铆钉的方式固定的，为了把中心的电机暴露出来，必然要破坏性拆卸，尽量保持不弯折直接暴力把正面的板子强行掰下，然后取下扇叶就可以露出中心的电机，就可以上润滑油了！
+<img src="/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/image5.jpg"
+	width="4032"
+	height="3024"
+	srcset="/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/image5_hu10798530959525304374.jpg 480w, /p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/image5_hu8754580507108749954.jpg 1024w"
+	loading="lazy"
+	
+		alt="强行开盖"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="133"
+		data-flex-basis="320px"
+	
+>
+<img src="/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/image6.jpg"
+	width="4032"
+	height="3024"
+	srcset="/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/image6_hu17656004346622638970.jpg 480w, /p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/image6_hu11806907824390857842.jpg 1024w"
+	loading="lazy"
+	
+		alt="取下扇叶,露出电机"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="133"
+		data-flex-basis="320px"
+	
+></p>
+<p>润滑油不要多，在中心轴承那个小圆洞上轻轻点一小滴即可，然后重新插上扇叶，最后我是通过502强力胶+电工胶带的方式装回,应该也有更好的方式,不过我不知道。
+<img src="/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/image7.jpg"
+	width="4032"
+	height="3024"
+	srcset="/p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/image7_hu11705694630827679511.jpg 480w, /p/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%AF%E6%95%91%E8%80%85y9000x2019%E7%9A%84%E6%8B%86%E6%9C%BA%E7%BB%B4%E6%8A%A4%E8%A7%A3%E5%86%B3%E9%A3%8E%E6%89%87%E5%BC%82%E5%93%8D/image7_hu18196152982002793335.jpg 1024w"
+	loading="lazy"
+	
+		alt="由于连接的点位都断了,我最后是靠502和电工胶带粘回去"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="133"
+		data-flex-basis="320px"
+	
+></p>
+<h3 id="最后">最后
+</h3><p>再次装机通电后，终于清净了。甚至感觉比这电脑刚入手时声音还小，仿佛回到了青春期一般，虽然风扇其实动了手术。</p>
+<p>我现在觉的等哪天换了新笔记本,可能还得提前准备点备件,如果是准备用满5年以上的话</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/hardware/">Hardware</a>
+        
+    </section>
+
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/p/%E6%B6%88%E5%A4%B1%E5%9C%A8%E8%AE%B0%E5%BF%86%E4%B8%AD%E7%9A%84%E7%8E%89%E5%85%B0%E9%A5%BC/">
+        
+        
+            <div class="article-image">
+                <img src="/p/%E6%B6%88%E5%A4%B1%E5%9C%A8%E8%AE%B0%E5%BF%86%E4%B8%AD%E7%9A%84%E7%8E%89%E5%85%B0%E9%A5%BC/cover.19b556254435572e2cf6286b88b3d583_hu6821736066135942852.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 消失在记忆中的玉兰饼"
+                        
+                        data-hash="md5-GbVWJUQ1Vy4s9ihriLPVgw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">消失在记忆中的玉兰饼</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/%E4%BB%8B%E7%BB%8D%E4%B8%80%E4%B8%8B%E6%88%91%E7%9A%84%E5%AE%A0%E7%89%A9%E9%B9%A6%E9%B9%89%E4%B8%8B%E9%9D%A2%E5%9B%BE%E5%A4%9A/">
+        
+        
+            <div class="article-image">
+                <img src="/p/%E4%BB%8B%E7%BB%8D%E4%B8%80%E4%B8%8B%E6%88%91%E7%9A%84%E5%AE%A0%E7%89%A9%E9%B9%A6%E9%B9%89%E4%B8%8B%E9%9D%A2%E5%9B%BE%E5%A4%9A/cover.3fc5be5eb4b0f4be36026df90b5e3f62_hu9266870198466567307.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 介绍一下我的宠物鹦鹉(下面图多)"
+                        
+                        data-hash="md5-P8W&#43;XrSw9L42Am35C14/Yg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">介绍一下我的宠物鹦鹉(下面图多)</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/%E7%94%9F%E5%91%BD%E4%B8%8D%E6%AD%A2%E6%8A%98%E8%85%BE%E4%B8%8D%E6%83%9C/">
+        
+        
+            <div class="article-image">
+                <img src="/p/%E7%94%9F%E5%91%BD%E4%B8%8D%E6%AD%A2%E6%8A%98%E8%85%BE%E4%B8%8D%E6%83%9C/cover.f0b450c561fe94113369d989bfc78c72_hu13632615247253555766.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 生命不止,折腾不惜"
+                        
+                        data-hash="md5-8LRQxWH&#43;lBEzadmJv8eMcg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">生命不止,折腾不惜</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <script src="https://utteranc.es/client.js" 
+        repo="yuejieyao/yuejieyao.github.io"
+        issue-term="pathname"
+        
+        label="Comment"
+        
+        crossorigin="anonymous"
+        async
+        >
+</script>
+
+<style>
+    .utterances {
+        max-width: unset;
+    }
+</style>
+
+<script>
+    let utterancesLoaded = false;
+
+    function setUtterancesTheme(theme) {
+        let utterances = document.querySelector('.utterances iframe');
+        if (utterances) {
+            utterances.contentWindow.postMessage(
+                {
+                    type: 'set-theme',
+                    theme: `github-${theme}`
+                },
+                'https://utteranc.es'
+            );
+        }
+    }
+
+    addEventListener('message', event => {
+        if (event.origin !== 'https://utteranc.es') return;
+
+        
+        utterancesLoaded = true;
+        setUtterancesTheme(document.documentElement.dataset.scheme)
+    });
+
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (!utterancesLoaded) return;
+        setUtterancesTheme(e.detail)
+    })
+</script>
+
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2024 Luoyao Blog
+    </section>
+    
+    <section class="powerby">
+        
+            远离争吵 <br/>
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.29.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
